@@ -17,8 +17,8 @@ void main()
 	const int n = 5;
 	int arr[n] = {};
 	int x = 0;
-	//arr[2] = 123; //обращение к элементам массива на запись
-	//cout << arr[2] << endl; // обращение ко второму элементу массива на чтение 
+	//arr[2] = 123; 
+	//cout << arr[2] << endl; 
 	cout << "Введите элементы массива: ";
 	for (int i = 0; i < n; i++)
 	{
@@ -32,7 +32,6 @@ void main()
 	{
 		x += arr[i];
 	}
-	//x = arr[0] + arr[1] + arr[2] + arr[3] + arr[4];
 	cout << "\n";
 	cout << "Сумма элементов массива: " << x << "\n";
 #endif // SUM
@@ -41,9 +40,6 @@ void main()
 	const int n = 5;
 	int arr[n] = {};
 	double x = 0;
-	//arr[2] = 123; 
-	//cout << arr[2] << endl; 
-
 	cout << "Введите 5 элементов массива: ";
 
 	for (int i = 0; i < n; i++)
