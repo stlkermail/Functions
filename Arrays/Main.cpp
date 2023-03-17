@@ -169,7 +169,7 @@ void shiftLeft(int arr[], const int n)
 {
 	int j;
 	cin >> j;
-	int shift = 0;
+	//int shift = 0;
 	cout << "\nМассив сдвинутый на: " << j << endl;
 	for (int i = 0; i < 10; i++)
 	{
@@ -182,7 +182,7 @@ void shiftRight(int arr[], const int n)
 {
 	int j;
 	cin >> j;
-	int shift = 0;
+	int shift;
 	cout << "\nМассив сдвинутый на: " << j << endl;
 	for (int i = 0; i < 10 ; i++)
 	{
