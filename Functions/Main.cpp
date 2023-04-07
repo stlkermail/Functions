@@ -12,7 +12,6 @@ int reminder(int a, int b);
 int n;
 int Factorial(int n);
 
-
 void main()
 {
 	setlocale(LC_ALL, "");
